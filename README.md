@@ -1,6 +1,6 @@
 # 深層強化学習講座2025Summer最終課題
 
-## プロジェクト概要（仮作成/テーマも変更の可能性あり）
+## プロジェクト概要（仮・作成中）
 
 ### テーマ: DQN拡張手法の組み合わせ評価（Ablation Study）
 
@@ -8,7 +8,7 @@
 
 ### 実験設定
 
-- **環境**: Atari Pong-v5
+- **環境**: Atari SpaceInvaders-v5
 - **比較モデル**
   1. Vanilla DQN（ベースライン）
   2. DQN + Double DQN
@@ -34,8 +34,8 @@
 drl-2025-final-project/
 ├── README.md                     # プロジェクト概要
 ├── src/                          # ソースコード
-├── experiments/                  # 実験結果
-└── requirements.txt              # 依存関係
+└── experiments/                  # 実験結果
+
 ```
 
 ## 環境要件
@@ -44,7 +44,6 @@ drl-2025-final-project/
 - PyTorch
 - Gymnasium
 - OpenAI Gym (Atari)
-- その他詳細は `requirements.txt` を参照
 
 ## ライセンス
 このプロジェクトは特定のライセンスの下での公開はしていません。制作者yf591と依頼者以外の者の使用は固く禁じます。
