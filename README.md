@@ -33,6 +33,7 @@
 ```
 drl-2025-final-project/
 ├── README.md                     # プロジェクト概要
+├── PREPORT.pdf                   # 発表用資料
 ├── src/                          # ソースコード
 └── experiments/                  # 実験結果
 
@@ -40,7 +41,7 @@ drl-2025-final-project/
 
 ## 環境要件
 
-- Python 3.12.4
+- Python
 - PyTorch
 - Gymnasium
 - OpenAI Gym (Atari)
