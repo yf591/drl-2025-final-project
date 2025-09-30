@@ -9,11 +9,15 @@
 ### 実験設定
 
 - **環境**
+  
   Atari SpaceInvaders-v5
+
 - **比較モデル**
+
   1. Vanilla DQN（ベースライン）
   2. DQN + Double DQN
   3. DQN + Double DQN + PER
+
 - **評価指標**
   
   学習曲線（エピソード報酬の推移）、収束速度、最終性能
